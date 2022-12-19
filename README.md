@@ -60,13 +60,13 @@ create or replace stage dash_files;
 
 ### **Step 2** -- Create Snowpark Python User-Defined Function using PyTorch
 
-* In a terminal window, run `jupyter notebook` at the command line from folder ***Snowpark-PyTorch-Streamlit-OpenAI-Image-Rec***.
+* In a terminal window, run `jupyter notebook` at the command line from folder ***sfguide-snowpark-pytorch-streamlit-openai-image-rec***.
 * Open and run through the [Jupyter notebook](Snowpark_PyTorch_Image_Rec.ipynb)
   * Note: Make sure the Jupyter notebook Python kernel is set to ***snowpark***
 
 ### **Step 3** -- Run Application Variation 1 - Upload an image
 
-* In a terminal window, execute `streamlit run Snowpark_PyTorch_Streamlit_Upload_Image_Rec.py` command from folder ***Snowpark-PyTorch-Streamlit-OpenAI-Image-Rec***.
+* In a terminal window, execute `streamlit run Snowpark_PyTorch_Streamlit_Upload_Image_Rec.py` command from folder ***sfguide-snowpark-pytorch-streamlit-openai-image-rec***.
 
 * If all goes well, you should see the following app in your browser window.
 
@@ -74,7 +74,7 @@ create or replace stage dash_files;
 
 ### **Step 4** -- Run Application Variation 2 - OpenAI Generated image
 
-* In a terminal window, execute `streamlit run Snowpark_PyTorch_Streamlit_OpenAI_Image_Rec.py` command from folder ***Snowpark-PyTorch-Streamlit-OpenAI-Image-Rec***.
+* In a terminal window, execute `streamlit run Snowpark_PyTorch_Streamlit_OpenAI_Image_Rec.py` command from folder ***Ssfguide-snowpark-pytorch-streamlit-openai-image-rec***.
 
 * If all goes well, you should see the following app in your browser window.
 
