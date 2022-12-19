@@ -27,16 +27,20 @@ For questions and feedback, please reach out to [Dash](https://twitter.com/iamon
 
 ### **Step 2** -- Create and activate Conda environment
 
-* Note: You can download the miniconda installer from
+* You can download the miniconda installer from
 https://conda.io/miniconda.html. ***(OR, you may use any other Python environment with Python 3.8.)***
   
 * `conda create --name snowpark -c https://repo.anaconda.com/pkgs/snowflake python=3.8`
 
 * `conda activate snowpark`
 
-### **Step 3** -- Install Snowpark for Python, Streamlit and other libraries in Conda environment
+### **Step 3** -- Install Snowpark for Python, Streamlit and other libraries in Conda environment.
+
+*Note: You can skip installing openai if you're not going to run the second variation of the app.*
 
 * `conda install -c https://repo.anaconda.com/pkgs/snowflake snowflake-snowpark-python pandas streamlit notebook cachetools`
+* `pip install uuid`
+* `pip install openai`
 
 ### **Step 4** -- Create table and internal stage
 
