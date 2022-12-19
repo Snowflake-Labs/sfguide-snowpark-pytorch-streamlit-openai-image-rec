@@ -1,4 +1,4 @@
-# Image Recognition app in Snowflake using Snowpark Python, PyTorch, Streamlit and OpenAI
+# Image Recognition in Snowflake using Snowpark Python, PyTorch, Streamlit and OpenAI
 
 ## Overview
 
@@ -42,7 +42,7 @@ https://conda.io/miniconda.html. ***(OR, you may use any other Python environmen
 * `pip install uuid`
 * `pip install openai`
 
-### **Step 4** -- Create table and internal stage
+### **Step 4** -- Create Snowflake table and internal stage
 
 * In your Snowflake account, create a table and internal stage by running the following commands in Snowsight. ***(The table will store image data and the stage is for storing serialized Snowpark Python UDF code.)***
 
@@ -64,18 +64,18 @@ create or replace stage dash_files;
 * Open and run through the [Jupyter notebook](Snowpark_PyTorch_Image_Rec.ipynb)
   * Note: Make sure the Jupyter notebook Python kernel is set to ***snowpark***
 
-### **Step 3** -- Run Application Variation 1 - Upload an image
+### **Step 3** -- Run Application 1 - Upload an image
 
 * In a terminal window, execute `streamlit run Snowpark_PyTorch_Streamlit_Upload_Image_Rec.py` command from folder ***sfguide-snowpark-pytorch-streamlit-openai-image-rec***.
 
-* If all goes well, you should see the following app in your browser window.
+* If all goes well, you should see a browser window open with the app loaded. Then, after uploading an image of your favorite animal by clicking on **Browse files** button, you should see something similar to this...
 
 ![Image Recognition app in Snowflake using Snowpark Python, PyTorch and Streamlit](assets/app1.png "Image Recognition app in Snowflake using Snowpark Python, PyTorch and Streamlit")
 
-### **Step 4** -- Run Application Variation 2 - OpenAI Generated image
+### **Step 4** -- Run Application 2 - OpenAI Generated image
 
 * In a terminal window, execute `streamlit run Snowpark_PyTorch_Streamlit_OpenAI_Image_Rec.py` command from folder ***Ssfguide-snowpark-pytorch-streamlit-openai-image-rec***.
 
-* If all goes well, you should see the following app in your browser window.
+* If all goes well, you should see a browser window open with the app loaded. Then, enter text like so "**I'd like to see a polar bear cub playing in snow!**" and you should see something similar to this...
 
 ![Image Recognition app in Snowflake using Snowpark Python, PyTorch, Streamlit and OpenAI](assets/app2.png "Image Recognition app in Snowflake using Snowpark Python, PyTorch, Streamlit and OpenAI")
