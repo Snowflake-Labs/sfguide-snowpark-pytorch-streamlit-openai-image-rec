@@ -18,7 +18,7 @@ st.set_page_config(
     layout='wide',
     menu_items={
          'Get Help': 'https://developers.snowflake.com',
-         'About': "The source code for this application can be accessed on GitHub https://github.com/iamontheinet/snowpark-pytorch-streamlit-image-rec"
+         'About': "The source code for this application can be accessed on GitHub https://github.com/Snowflake-Labs/sfguide-snowpark-pytorch-streamlit-openai-image-rec"
      }
 )
 
