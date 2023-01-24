@@ -5,7 +5,7 @@ In this guide, you will learn how to build image recognition applications in Sno
 
 ## Demo
 
-[![Watch video](https://i9.ytimg.com/vi_webp/UX6hBV5c0T0/maxresdefault.webp?v=63c74ab8&sqp=CJjTu54G&rs=AOn4CLAlLu7Cgo5HCY3csQxihRzHOmSgfg)](https://youtu.be/UX6hBV5c0T0 "Watch video")
+[![Watch video](assets/demo_thumbnail.png)](https://youtu.be/UX6hBV5c0T0 "Watch video")
 
 ## Build and Run Applications
 
